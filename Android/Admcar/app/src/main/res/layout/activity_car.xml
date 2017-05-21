@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.mehmetcan.admcar.CarActivity" >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/goLeftBtn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/left"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/goRightBtn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/right"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignTop="@+id/goLeftBtn"
+        android:layout_toEndOf="@+id/goLeftBtn"
+        android:layout_toRightOf="@+id/goLeftBtn" />
+
+    <ImageButton
+        android:id="@+id/goForwardBtn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/go"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="43dp"
+        android:layout_above="@+id/goRightBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="43dp" />
+
+    <ImageButton
+        android:id="@+id/goBackwardBtn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/back"
+
+        android:layout_alignTop="@+id/goRightBtn"
+        android:layout_alignStart="@+id/goForwardBtn"
+        android:layout_alignLeft="@+id/goForwardBtn" />
+
+</RelativeLayout>

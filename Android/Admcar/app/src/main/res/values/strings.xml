@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Admcar</string>
+    <string name="bluetooth_text">Click the button to list paired devices</string>
+</resources>
