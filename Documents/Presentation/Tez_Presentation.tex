@@ -598,14 +598,14 @@ void MotorKontrol(int mdir1, int mdir2, int pwmSpeed)
 {\color{Red}{\textbf{Step 2 }}} If you have a bluetooth but it is not open, request to connect.\\
 \vspace{0.3cm}
 {\color{Red}{\textbf{Step 3 }}} Take paired devices\\
+%\vspace{0.3cm}
+%{\color{Red}{\textbf{Step 4 }}} Method that allows us to select desired devices to connect.\\
 \vspace{0.3cm}
-{\color{Red}{\textbf{Step 4 }}} Method that allows us to select desired devices to connect.\\
+{\color{Red}{\textbf{Step 4 }}} We get the mac address, the last 17 characters in the view.\\
 \vspace{0.3cm}
-{\color{Red}{\textbf{Step 5 }}} We get the mac address, the last 17 characters in the view.\\
+{\color{Red}{\textbf{Step 5 }}} We define an intent to start a new activity.\\
 \vspace{0.3cm}
-{\color{Red}{\textbf{Step 6 }}} We define an intent to start a new activity.\\
-\vspace{0.3cm}
-{\color{Red}{\textbf{Step 7 }}} Start the activity.
+{\color{Red}{\textbf{Step 6 }}} Start the activity.
 \end{frame}
 
 \begin{frame}{Android Code Flows}{MjpegStream.java}
@@ -764,14 +764,13 @@ have to know how to use a smartphone, launch an application and push some\\ \vsp
 \begin{itemize}
 \item The project works, we are able to do what we wanted.
 \vspace{0.2cm}
-\item The source code for both Android and Arduino is commented, well explained and documented with
-external documents.
+\item The source code for both Android and Arduino is commented, well explained and documented with external documents.
 \vspace{0.2cm}
 \item All the source code and the documentation are available for future usages for other people and free. (Git)
 \vspace{0.2cm}
 \item Good and speed video stream.
 \vspace{0.2cm}
-\item With the video streaming width designed to fill the user’s phone screen, the user will be able to control the car comfortably.
+\item With the video streaming width designed to fill the user’s phone screen, the user will be able to control the car comfortably. (thanks to full screen)
 \vspace{0.2cm}
 \item It connects to Bluetooth without difficulty and never breaks unless we are away from a certain distance.
 \end{itemize}
@@ -793,12 +792,11 @@ external documents.
 \begin{itemize}
 \item Use external antenna for greater range.
 \vspace{0.1cm}
-\item Use only one source of power, so use the big battery used by the motor for both motor and Arduino
-using the regulator.
-\vspace{0.1cm}
+%\item Use only one source of power, so use the big battery used by the motor for both motor and Arduino using the regulator.
+%\vspace{0.1cm}
 \item Study and fix bugs on the applications.
-\vspace{0.1cm}
-\item Improve the Android application to be able to get the video stream and the car control after lost them (out of range) automatically.
+%\vspace{0.1cm}
+%\item Improve the Android application to be able to get the video stream and the car control after lost them (out of range) automatically.
 \vspace{0.1cm}
 \item Add sounds to warn the user on some events such as “out of range”, “video lost”, etc.
 \vspace{0.1cm}
